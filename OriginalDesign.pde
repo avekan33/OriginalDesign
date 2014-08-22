@@ -12,6 +12,7 @@ void draw()
 {
   head();
   body();
+  greet();
 }
 void head()
 {
@@ -34,5 +35,11 @@ void body()
   // Arms
   line(150, 153, 150 + splay, 153 - splay);
   line(150, 153, 150 - splay, 153 - splay);
+}
+void greet()
+{
+	textAlign(CENTER);
+	textSize(20);
+	text("Hey!",150,20);
 }
 
